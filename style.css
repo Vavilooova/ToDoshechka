@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    background-color: #fff;
+    box-shadow: 8px 9px 18px rgb(55 0 255);
+    padding: 20px;
+    border-radius: 8px;
+    width: 300px;
+    
+}
+
+
+
+body{
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+    font-family: 'Arial', sans-serif;
+    background-color: #fffdfd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+h1{
+    text-align: center;
+    color: #78baf3;
+    font-family: 'Raleway', sans-serif;
+    margin: 20px;
+}
+
+form{
+    padding: 40px;
+}
+
+.main__input{
+    height: 27px;
+    width: 185px;
+    border: 3px solid #fccaf8;
+    border-radius: 40px;
+    transition: background-color 0.3s;
+}
+
+
+
+button{
+    height: 24px;
+    width: 76px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    margin: 5px;
+    border-radius: 50px;
+    font-size: 10px;
+    border: 3px solid #fccaf8;
+    font-family: 'Kanit', sans-serif;
+
+}
+
+button:hover{
+    background: rgb(139, 152, 234);
+    
+}
+
+.output{
+    padding: 8px -20px;
+}
+
+.block{
+    /* padding: 20px; */
+    border: 3px solid #fccaf8;
+    margin: 28px -3px;
+    border-radius: 21px;
+    box-shadow: 5px 5px 10px #eb92f4;
+}
+
+
+
+
+.h2{
+    color: #78baf3;
+    margin: 9px;
+    font-size: 15px;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+}
+
+.p{
+    color: #78baf3;
+    font-size: 13px;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    margin: 7px;
+}
+
+
+.p2{
+    color: #78baf3;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    font-size: 14px;
+    margin: 4px;
+}
+
+.block span{
+    color: #443f68;
+    margin: 17px;
+    font-size: 15px;
+    font-family: 'Kanit', sans-serif;
+}
+
+
+.countWrapper{
+    color: #443f68;
+    font-family: 'Kanit', sans-serif;
+    position: relative;
+    left: 145px;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: black;
+}
